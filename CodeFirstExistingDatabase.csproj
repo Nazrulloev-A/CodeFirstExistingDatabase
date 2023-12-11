@@ -56,7 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Author.cs" />
-    <Compile Include="Category.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="Migrations\202312111515010_InitialModel.cs" />
     <Compile Include="Migrations\202312111515010_InitialModel.designer.cs">
@@ -81,6 +80,14 @@
     <Compile Include="Migrations\202312111617472_DeleteDatePublishedFromCoursesTable.cs" />
     <Compile Include="Migrations\202312111617472_DeleteDatePublishedFromCoursesTable.designer.cs">
       <DependentUpon>202312111617472_DeleteDatePublishedFromCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202312111622473_DeleteCategoryColumnFromCoursetable.cs" />
+    <Compile Include="Migrations\202312111622473_DeleteCategoryColumnFromCoursetable.designer.cs">
+      <DependentUpon>202312111622473_DeleteCategoryColumnFromCoursetable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202312111626157_DeleteCategoriesTable.cs" />
+    <Compile Include="Migrations\202312111626157_DeleteCategoriesTable.designer.cs">
+      <DependentUpon>202312111626157_DeleteCategoriesTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
@@ -110,6 +117,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202312111617472_DeleteDatePublishedFromCoursesTable.resx">
       <DependentUpon>202312111617472_DeleteDatePublishedFromCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202312111622473_DeleteCategoryColumnFromCoursetable.resx">
+      <DependentUpon>202312111622473_DeleteCategoryColumnFromCoursetable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202312111626157_DeleteCategoriesTable.resx">
+      <DependentUpon>202312111626157_DeleteCategoriesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
